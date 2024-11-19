@@ -1,0 +1,31 @@
+/* TABLET AND DESKTOP FOOTER */
+@media only screen and (min-width:768px){
+  footer p a {
+	  border-bottom: none !important;
+      background-image: none !important;
+      text-decoration: none !important;
+  } 
+}
+
+/* MOBILE FOOTER */
+// Tablet and Desktop footer
+@media only screen and (max-width:767px){
+  footer p a {
+	  border-bottom: none !important;
+      background-image: none !important;
+      text-decoration: none !important;
+  } 
+  .item-pagination--prev-next h2{
+  	font-size: 1.1em !important;
+  	line-height: 1.25em !important;
+  	font-weight: 500 !important;
+    margin-left: -15px !important;
+ 	margin-right: -15px !important;
+	}
+  html, body {
+    overflow-x: hidden !important;}
+}
+
+footer.sections a:hover {
+	color: #ab3382 !important;
+}
