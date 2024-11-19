@@ -1,0 +1,14 @@
+<!-- Move Reviews under related products -->
+<script>
+  jQuery(document).ready(function($){
+          setTimeout(function(){
+	$('section.reviewsSection').insertAfter('article.ProductItem>section:has(.ProductItem-related-label)');
+          }, 3000);
+      })
+</script>
+
+<!-- sqs:beyondspace--classic-gallery -->
+<script>
+(()=>{if(window.self!==window.top&&window.top.Static.SQUARESPACE_CONTEXT.authenticatedAccount){var e="beyondspace--classic-gallery";if(!window.top.document.getElementById(e)){var t=window.top.document.createElement("script");t.id=e,t.src="https://cdn.jsdelivr.net/gh/BeyondspaceStudio/beyondspace-snippets@0.0.44/src/classic-gallery-block/index.min.js",window.top.document.body.appendChild(t)}}})();
+</script>
+<!-- /sqs:beyondspace--classic-gallery -->
